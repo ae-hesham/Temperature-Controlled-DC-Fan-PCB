@@ -1,1 +1,11 @@
 
+# Firmware
+
+Firmware is **not yet included** in this repository.
+
+Planned scope (target: STM32F411CEU6, programmed through the SWD header `J3`):
+
+- Sample the TMP36 on `PA4` (ADC) with oversampling / averaging
+- Convert the reading to °C (10 mV/°C, 500 mV offset)
+- Map temperature to a PWM duty cycle on `PA6` (configurable temperature-to-speed curve)
+- Optional: UART/LED status and over-temperature alarm
