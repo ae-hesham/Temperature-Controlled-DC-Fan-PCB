@@ -1,0 +1,16 @@
+# Altium Designer
+History/
+__Previews/
+Project Logs for*/
+Project Outputs for*/
+*.PrjPcbStructure
+*.SchDocPreview
+*.PcbDocPreview
+*.~*
+*.Dat
+*.LDB
+*.DsnWrk
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
